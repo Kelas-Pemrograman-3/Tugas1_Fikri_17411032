@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halaman 1</title>
+</head>
+<body>
+    <!-- Navbar -->
+<table id="navbar">
+    <tr>
+        <td id="link"><a href="index.html">Halaman 1</a></td>
+        <td id="link"><a href="tabelbarang.html">Halaman 2</a></td>
+        <td id="link"><a href="formtransaksi.html">Halaman 3</a></td>
+    </tr>
+</table>
+<!-- Judul -->
+    <h1>MASUKAN BARANG</h1>
+<!-- input Masukan Nama Barang -->
+<form action="">
+    <table>
+        <tr>
+            <td>Nama Barang</td>
+            <td>
+                <input type="text" placeholder="Masukan Nama Barang"></input>
+            </td>
+        </tr>
+    
+<!-- Pilih Jenis Barang -->
+    <tr>
+        <td></td>
+        <td>
+            <select>
+                    <option value="pupuk">---Pilih Jenis Barang---</option>
+                    <option value="pupuk">Pupuk</option>
+                    <option value="benih">Benih</option>
+                    <option value="alattani">Alat Tani</option>
+                </select>
+            </td>
+        </tr>
+        <!-- Pilihan ,Subsidi/Nonsubsidi -->
+        <tr>
+            <td></td>
+            <td>
+                <select>
+                    <option value="pupuk">---Pilih Subsidi/Non Subsidi---</option>
+                    <option value="subsidi">Subsidi</option>
+                    <option value="nonsubsidi">Non Subsidi</option>
+            </select>
+        </td>
+    </tr>
+<!-- Deskripsi -->
+    <tr>
+        <td>Deskripsi</td>
+        <td>
+            <textarea name="deskripsi" cols="50" rows="5" placeholder="Keterangan Produk" ></textarea>
+        </td>
+    </tr>
+<!-- Stock Barang -->
+    <tr>
+        <td>Stock</td>
+        <td><input type="number"></td>
+    </tr>
+<!-- Harga Barang -->
+    <tr>
+        <td>Harga</td>
+        <td><input type="number"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <br>
+            <input type="reset" value="reset"></input>
+            <input type="submit" value="Input"></input>
+        </td>
+    </tr>
+    </table>
+</form>
+</body>
+<style>
+#link{
+    background: #fadada;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+</style>
+</html>
